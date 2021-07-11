@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swiggy Blog</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./font-awesome/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav class="navbar">
+            <img src="./img/logo.png">
+            <div class="nav-links" id="navLinks">
+                <i class="hide fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Life at Swiggy</a></li>
+                    <li><a href="#">Snackables</a></li>
+                    <li><a href="#">Team at Swiggy</a></li>
+                    <li><a href="#">Visit Swiggy</a></li>
+                </ul>
+
+            </div>
+            <div class="icons">
+                <i class="fa fa-search"><a href="#"></a></i>
+                <i class="show fa fa-bars" onclick="showMenu()"><a href="#"></a></i>
+            </div>
+        </nav>
+        <img src="./img/banner.jpeg" alt="">
+    </section>
+
+    <section class="description">
+        <div>
+            <h1>Dinner Table Stories, As Told By The Queer Community</h1>
+            <h4>June 30, 2021</h4>
+            <p>Pride month is an important time for the queer community. It marks a milestone in a long history of struggle and reminds us all of the hard fight ahead. It’s also a time to honour love and identity. </p>
+            <br>
+            <p>The family dining table is where we gather to mark the end of the day with our loved ones. Along with a hot dinner, we serve up silent expressions of love. It may be as simple as pouring someone an unasked glass of water, or letting them have the last piece of cake. Here’s a collection of true stories of little moments of love, shared over a meal, as told by real voices of the queer community.</p>
+            <img src="./img/banner4.jpg" alt="">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet similique vitae vero nihil enim consequatur harum fuga nemo unde dolorum.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur, asperiores laudantium! Placeat, vel. Minima aut veniam maiores voluptatibus animi culpa aliquam aspernatur ratione inventore dolor? Numquam iusto velit deleniti. Odit aut rerum accusamus ratione, ut earum saepe vero repellat voluptas?</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, omnis.</p>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet similique vitae vero nihil enim consequatur harum fuga nemo unde dolorum.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur, asperiores laudantium! Placeat, vel. Minima aut veniam maiores voluptatibus animi culpa aliquam aspernatur ratione inventore dolor? Numquam iusto velit deleniti. Odit aut rerum accusamus ratione, ut earum saepe vero repellat voluptas?</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, omnis.</p>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet similique vitae vero nihil enim consequatur harum fuga nemo unde dolorum.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur, asperiores laudantium! Placeat, vel. Minima aut veniam maiores voluptatibus animi culpa aliquam aspernatur ratione inventore dolor? Numquam iusto velit deleniti. Odit aut rerum accusamus ratione, ut earum saepe vero repellat voluptas?</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, omnis.</p>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <a href="./index.html" class="hero-btn">1</a>
+            <a href="./page2.html" class="hero-btn">2</a>
+            <a href="./page3.html" class="hero-btn active">3</a>
+            <!-- <button class="hero-btn"><a href="./index.html">1</a></button>
+            <button class="hero-btn"><a href="./page2.html">2</a></button>
+            <button class="hero-btn active"><a href="./page3.html">3</a></button> -->
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="about-div">
+            <h1>Related Stories</h1>
+            <div class="row">
+                <div class="col">
+                    <div class="img">
+                        <img src="./img/rs-5.jpg" alt="">
+                        <div class="layer"></div>
+                        <span>LOCAL GUIDES</span>
+                    </div>
+                    <h2>Move Over, Masala Dosa</h2>
+                    <h4>OCTOBER 10, 2019</h4>
+                </div>
+                <div class="col">
+                    <div class="img">
+                        <img src="./img/rs-6.jpg" alt="">
+                        <div class="layer"></div>
+                        <span>LOCAL GUIDES</span>
+                    </div>
+                    <h2>Indiranagar Foodies’ Choice | September Edition</h2>
+                    <h4>SEPTEMBER 16, 2020</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="row-footer">
+            <span>Copyright 2020 Bundl Technologies Pvt Ltd. All rights reserved.
+            </span>
+            <div class="icons">
+                <i class="fa fa-facebook"><a href="#"></a></i>
+                <i class="fa fa-linkedin"><a href="#"></a></i>
+                <i class="fa fa-twitter"><a href="#"></a></i>
+                <i class="fa fa-instagram"><a href="#"></a></i>
+            </div>
+        </div>
+    </section>
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
